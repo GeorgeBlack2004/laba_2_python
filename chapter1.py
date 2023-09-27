@@ -1,12 +1,3 @@
-def is_digit(q):
-    while True:
-        x = input(q)
-        if x.isdigit():
-            return int(x)
-        else:
-            print("This is not a digit. Try again")
-
-
 def check(x):
     if x == 1:
         return False
